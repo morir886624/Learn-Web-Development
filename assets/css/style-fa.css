@@ -547,99 +547,101 @@ footer{
             /* mobil */
 
 @media  (max-width: 641px) {
-body{
-margin: 0;
-padding: 0;
-
-}
-
-.div-logo{
-    display: none;
-}
-
-.div-logo-mobile{
-    max-width: 60px;
-height: auto;
-z-index: 10000;
-display: flex;
-
-}
-
-header {
-height: auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: row;
-padding: 0 10px;
-z-index: 10000;
-direction: ltr;
-}
-
-
-.img-logo {
-    max-width: 60px;
-    height: auto;
-    z-index: 10000;
-    margin: 0;
-
-}
-
-
-.header-menu-mobile {
-display: flex;
-justify-content: center;
-background: none;
-border: none;
-font-size: 30px;
-cursor: pointer;
-z-index: 1001;
-}
-
-nav {
-display: none;
-flex-direction: column;
-position: fixed;
-top: 0;
-left: 0px;
-height: 100%;
-width: 100%;
-background: white;
-z-index: 1000;
-justify-content: center;
-align-items: center;
-gap: 20px;
-}
-
-
-nav.active {
-display: flex;
-padding: 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0;
-}
-
-nav ul li {
-margin: 10px 0;
-}
-
-nav ul li a {
-font-size: 20px;
-}
-
-
-.img-fa,
-.img-moon {
-width: 35px;
-height: 35px;
-margin: 0 10px;
-}
+    body{
+        margin: 0;
+        padding: 0;
+        
+        }
+        
+        .div-logo{
+            display: none;
+        }
+        
+        .div-logo-mobile{
+            max-width: 60px;
+        height: auto;
+        z-index: 10000;
+        display: flex;
+        
+        }
+        
+        header {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 10px;
+        z-index: 10000;
+        direction: ltr;
+        }
+        
+        
+        .img-logo {
+            max-width: 60px;
+            height: auto;
+            z-index: 10000;
+            margin: 0;
+        
+        }
+        
+        
+        .header-menu-mobile {
+        display: flex;
+        justify-content: center;
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 1001;
+        }
+        
+        nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background: white;
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        }
+        
+        
+        nav.active {
+        display: flex;
+        padding: 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+            gap: 0;
+        }
+        
+        nav ul li {
+        margin: 10px 0;
+        }
+        
+        nav ul li a {
+        font-size: 20px;
+        }
+        
+        
+        .img-fa,
+        .img-moon {
+        width: 35px;
+        height: 35px;
+        margin: 0 10px;
+        }
+        
 /* div & image principale */
 
 

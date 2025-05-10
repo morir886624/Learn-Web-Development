@@ -65,11 +65,11 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     font-size: 25px;
+    transition: 0.3s;
 }
 
 nav ul li a:hover{
     color: #57b1e4;
-    transition: 0.3s;
 }
 
 
@@ -77,11 +77,11 @@ nav ul li a:hover{
     max-width:100px;
     width: 100%;
     height: 100px;
+    transition: 0.3s;
 }
 
 .img-logo:hover{
     cursor: pointer;
-    transition: 0.3s;
     transform: scale(1.1);
 }
 
@@ -100,6 +100,7 @@ nav ul li a:hover{
     width: 100%;
     height: 70px;
     margin-right:20px ;
+    transition: 0.3s;
 
 }
 
@@ -107,18 +108,17 @@ nav ul li a:hover{
     width: 100%;
     max-width: 55px;
     height: 55px;
+    transition: 0.3s;
 
 }
 
 .img-moon:hover{
     cursor: pointer;
-    transition: 0.3s;
     transform: scale(1.1);
 }
 
-.img-us:hover{
+.img-fa:hover{
     cursor: pointer;
-    transition: 0.3s;
     transform: scale(1.1);
 }
 
@@ -304,6 +304,7 @@ background: none;
     margin-top: 20px;
     text-align: center;
     max-width: 100%;
+    transition: 0.3s;
 }
 
 .div-button-youtube a{
@@ -315,19 +316,18 @@ background: none;
     font-size: 15px;
     font-weight: 500;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
 .div-button a:hover{
     background-color: #fff;
     color: #57b1e4;
     border: 2px solid #57b1e4;
-    transition: 0.3s;
 }
 
 .div-button-youtube a:hover{
     background-color: #ffffff;
     color: #e45757;
-    transition: 0.3s;
     border: #e45757 solid 2px;
 }
 

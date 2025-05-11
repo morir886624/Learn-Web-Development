@@ -157,7 +157,7 @@ main{
     border-radius: 20px;
 }
 
-.main-text , .main-text2{
+.main-text, .main-text2{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -173,7 +173,8 @@ main{
 
 }
 .main-text, .main-text2 p{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 

@@ -169,8 +169,9 @@ main{
 
 }
 .main-text, .main-text2 p{
-    font-size: 20px;
+    font-size: 25px;
     direction: rtl;
+    font-weight: 500;
 }
 
 

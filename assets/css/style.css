@@ -285,7 +285,8 @@ footer p{
 }
 
 
-/* --------------------- MEDIA QUERIES POUR TABLETTE --------------------- */
+/* --------------------- TABLETTE --------------------- */
+
 @media screen and  (max-width: 1007px){
 body {
   margin: 0;

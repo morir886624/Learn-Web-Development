@@ -1,7 +1,32 @@
-body {
-    margin: 0;
+body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
     direction: rtl;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+:root {
+  --bg-color: #fff;
+  /* --text-color: #191919; */
+  --text-color: #15202B;
+  /* --text-color: #121212; */
+
+  /* box-colors */
+  --box-color: #cadce7;
+}
+
+.dark-theme {
+  /* --bg-color: #191919; */
+  --bg-color: #15202B;
+  /* --bg-color: #121212; */
+  --text-color: #fff;
+
+
+  /* box-colors */
+  --box-color:#00263d;
+
 }
 
 body::before {
@@ -58,10 +83,41 @@ h1{
     font-weight: 900;
     font-size: 50px;
 }
+h2{
+    color: var(--text-color);
+}
 
 p{
-    margin-top: -20px
+    margin-top: -20px;
+    color: var(--text-color);
 }
+.mail{
+    color: var(--text-color);
+
+}
+.mail:hover{
+    cursor: pointer;
+    color: #57b1e4;
+}
+
+.img-us-moon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.img-fa{
+    max-width: 70px;
+    margin: 5px;
+}
+.img-moon{
+    max-width: 80px;
+    margin: 5px;
+}
+
+
 
 
 /* --------------tablette */
@@ -111,7 +167,16 @@ h1{
 }
 
 p{
-    margin-top: -20px
+    margin-top: -20px;
+    color: var(--text-color);
+}
+.img-fa{
+    max-width: 60px;
+    margin: 5px;
+}
+.img-moon{
+    max-width: 70px;
+    margin: 5px;
 }
 
 }
@@ -162,10 +227,20 @@ h1{
 }
 h2{
     font-size: 18px;
+    color: var(--text-color);
 }
 p{
     margin-top: -10px;
     font-size: 12px;
+    color: var(--text-color);
+}
+.img-fa{
+    max-width: 50px;
+    margin: 5px;
+}
+.img-moon{
+    max-width: 60px;
+    margin: 5px;
 }
 
 }

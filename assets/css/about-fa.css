@@ -2,7 +2,33 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     direction: rtl;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
+
+:root {
+  --bg-color: #fff;
+  /* --text-color: #191919; */
+  --text-color: #15202B;
+  /* --text-color: #121212; */
+
+  /* box-colors */
+  --box-color: #cadce7;
+}
+
+.dark-theme {
+  /* --bg-color: #191919; */
+  --bg-color: #15202B;
+  /* --bg-color: #121212; */
+  --text-color: #fff;
+
+
+  /* box-colors */
+  --box-color:#00263d;
+
+}
+
 
 .div-logo-mobile{
     display: none;
@@ -18,7 +44,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #fff;
+    background-color: var(--bg-color);
     padding: 0 30px;
 }
 
@@ -54,7 +80,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: var(--text-color);
     font-size: 25px;
     transition: 0.3s;
 }
@@ -125,7 +151,7 @@ main{
     margin: 50px 0;
     padding: 30px;
     box-sizing: border-box;
-    background-color: #cadce7;
+    background-color:var(--box-color);
     border-radius: 12px;
 }
 .container2{
@@ -135,7 +161,7 @@ main{
     margin: 50px 0;
     padding: 30px;
     box-sizing: border-box;
-    background-color: #cadce7;
+    background-color:var(--box-color);
     direction: ltr;
     border-radius: 12px;
 }
@@ -148,7 +174,7 @@ main{
 }
 .div-image img{
     width: 100%;
-    max-height: 80%;
+    max-height: 85%;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -184,9 +210,9 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--bg-color);
     box-shadow: #57b1e4 0px 0px 10px;
-    color: #000;
+    color: var(--text-color);
     padding: 20px 0;
     margin-top: 300px;
     direction: ltr;
@@ -207,7 +233,7 @@ footer{
 
 .footer-box a{
     text-decoration: none;
-    color: #000;
+    color:var(--text-color);
     font-size: 20px;
     margin: 0 20px;
     font-weight: 500;
@@ -215,7 +241,7 @@ footer{
 footer p{
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: var(--text-color);
     font-weight: 500;
 }
 
@@ -354,7 +380,7 @@ main{
     margin: 50px 0;
     padding: 30px;
     box-sizing: border-box;
-    background-color: #cadce7;
+    background-color:var(--box-color);
     border-radius: 12px;
 }
 
@@ -409,9 +435,9 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--bg-color);
     box-shadow: #57b1e4 0px 0px 10px;
-    color: #000;
+    color:var(--text-color);
     padding: 20px 0;
     margin-top: 200px;
     
@@ -431,7 +457,7 @@ footer{
     
     .footer-box a{
     text-decoration: none;
-    color: #000;
+    color:var(--text-color);
     font-size: 16px;
     margin:10px 10px;
     font-weight: 500;
@@ -440,7 +466,7 @@ footer{
     footer p{
     text-align: center;
     font-size: 16px;
-    color: #000;
+    color: var(--text-color);
     font-weight: 500;
     }
     
@@ -527,7 +553,7 @@ top: 0;
 left: 0px;
 height: 100%;
 width: 100%;
-background: white;
+background: var(--bg-color);
 z-index: 1000;
 justify-content: center;
 align-items: center;
@@ -578,7 +604,7 @@ margin: 0 10px;
     margin: 20px 0;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #cadce7;
+    background-color: var(--box-color);
     border-radius: 12px;
 }
 
@@ -638,9 +664,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items: center;
-background-color: #fff;
+background-color: var(--bg-color);
 box-shadow: #57b1e4 0px 0px 10px;
-color: #000;
+color: var(--text-color);
 padding: 0;
 margin-top: 100px;
 
@@ -664,7 +690,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 font-size: 10px;
-color: #000;
+color:var(--text-color);
 font-weight: 500;
 }
 
@@ -692,7 +718,7 @@ max-width: 25px;
 
 .footer-box a{
 text-decoration: none;
-color: #000;
+color: var(--text-color);
 font-size: 12px;
 /* margin: 0 20px; */
 font-weight: 500;
@@ -704,7 +730,7 @@ margin: 10px 20px;
 .material-symbols-outlined {
 font-size: 40px;
 margin: 0 auto;
-
+color: var(--text-color);
 
 }
 }

@@ -15,6 +15,7 @@ function applyTheme(theme) {
   if (logoAbout) logoAbout.src = isDark ? "assets/images/logo_mode_nuit.svg" : "assets/images/logo.svg";
 }
 
+//******************************************************************* */
 window.addEventListener("DOMContentLoaded", function(){
   // Appliquer le thème au chargement
   const savedTheme = localStorage.getItem("theme") || "light";

@@ -5,7 +5,11 @@ body{
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
-
+.material-symbols-outlined{
+    font-size: 70px;
+    color: var(--text-color);
+    margin: 0 20px;
+}
 :root {
   --bg-color: #fff;
   /* --text-color: #191919; */

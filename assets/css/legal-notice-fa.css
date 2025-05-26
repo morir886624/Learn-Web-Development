@@ -1,5 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  }
+  
+  @font-face {
+  font-family: 'B Nazanin';
+  src: url('fonts/B-Nazanin.woff2') format('woff2'),
+        url('fonts/B-Nazanin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     direction: rtl;
     background-color: var(--bg-color);

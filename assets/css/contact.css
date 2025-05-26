@@ -83,7 +83,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.3s;
 }
 
@@ -191,7 +191,7 @@ form{
   width: 100%;
 }
 
-h1 {
+h2 {
 text-align: center;
 color: rgb(87, 177, 228);
 margin-bottom: 40px;

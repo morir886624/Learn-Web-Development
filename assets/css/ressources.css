@@ -1,3 +1,6 @@
+  html {
+  scroll-behavior: smooth;
+  }
   body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -84,7 +87,7 @@
   nav ul li a{
   text-decoration: none;
   color: var(--text-color);
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.3s;
   }
 
@@ -343,9 +346,9 @@
 
 
 
-  /* footer */
 
-  footer{
+  /* footer */
+footer{
   width: 100%;
   height: auto;
   display: flex;
@@ -356,66 +359,56 @@
   box-shadow: #57b1e4 0px 0px 10px;
   color: var(--text-color);
   padding: 20px 0;
-  margin-top: 300px;
-
+  margin-top: 100px;
   }
 
-  .footer-box{
+.footer-box{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: auto;
-  padding: 20px 50px;
+  padding: 20px 0;
   box-sizing: border-box;
   flex-direction: row;
-
   }
 
-  .footer-box a{
+.footer-box a{
   text-decoration: none;
   color: var(--text-color);
   font-size: 20px;
   margin: 0 20px;
   font-weight: 500;
-  }
-  footer p{
-  text-align: center;
-  font-size: 20px;
-  color: var(--text-color);
-  font-weight: 500;
+  text-decoration: underline;
   }
 
-  .footer-box a:hover{
+footer p{
+  text-align: center;
+  font-size: 15px;
+  color: var(--text-color);
+  font-weight: 500;
+  margin: 0;
+  }
+
+.footer-box a:hover{
   color: #57b1e4;
   transition: 0.3s;
   }
 
-  .header-menu-mobile{
-  display: none;
-  }
 
-  .footer-box-row-mail{
+.footer-box-row-phone,
+.footer-box-row-mail{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   box-sizing: border-box;
-
   }
 
-  .footer-box-row-phone{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  box-sizing: border-box;
-
-  }
 
 
   /* --------------------- MEDIA QUERIES POUR TABLETTE --------------------- */
-  @media screen and  (max-width: 1300px){
+  @media screen and  (max-width: 1024px){
   body {
   margin: 0;
   }
@@ -779,7 +772,7 @@
 
   /* mobil */
 
-  @media  (max-width: 641px) {
+  @media  (max-width: 768px) {
   body{
   margin: 0;
   padding: 0;

@@ -32,6 +32,10 @@ body{
   display: none;
   }
 
+  .icons-menu{
+    display:none ;
+  }
+
 .div-logo-mobile{
   display: none;
   }
@@ -62,7 +66,7 @@ nav ul{
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   padding: 0;
   gap: 60px;
   }
@@ -81,6 +85,10 @@ nav ul li a{
   color: var(--text-color);
   font-size: 20px;
   transition: 0.3s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   }
 
 nav ul li a:hover{
@@ -126,7 +134,7 @@ nav ul li a:hover{
   transform: scale(1.1);
   }
 
-.img-us:hover{
+.img-fa:hover{
   cursor: pointer;
   transform: scale(1.1);
   }
@@ -292,9 +300,6 @@ footer p{
   /* --------------------- TABLETTE --------------------- */
 
 @media screen and  (max-width: 1024px){
-body {
-margin: 0;
-}
 
 .div-logo-mobile{
   display: none;
@@ -374,21 +379,17 @@ header{
 }
 
 
-
-
-
-
                        /* mobil */
 
   @media  (max-width: 768px) {
-  body{
-  margin: 0;
-  padding: 0;
-  }
-
+  
 .div-logo{
   display: none;
   }
+
+.icons-menu{
+  display: flex;
+}
 
 .div-logo-mobile{
   max-width: 60px;
@@ -398,6 +399,7 @@ header{
   }
 
 header {
+  direction: ltr;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -405,7 +407,6 @@ header {
   flex-direction: row;
   padding: 0 10px;
   z-index: 10000;
-  direction: ltr;
   }
 
 .img-logo {

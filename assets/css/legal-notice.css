@@ -90,11 +90,13 @@ h1{
     font-size: 50px;
 }
 h2{
+    font-size: 30px;
     color: var(--text-color);
 }
 
 p{
     margin-top: -20px;
+    font-size: 20px;
     color: var(--text-color);
 }
 .mail{
@@ -128,7 +130,7 @@ p{
 
 /* --------------tablette */
 
-@media screen and  (max-width: 1007px){
+@media screen and  (max-width: 1024px){
 body {
   margin: 0;
 }
@@ -148,7 +150,6 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .text-box{
@@ -188,11 +189,10 @@ p{
 }
 /* --------------Mobile */
 
-@media screen and  (max-width: 640px){
+@media screen and  (max-width: 768px){
 body {
   margin: 0;
 }
-
 
 main{
     display: flex;
@@ -208,7 +208,6 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .text-box{

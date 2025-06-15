@@ -1,3 +1,6 @@
+<?php
+require_once('header-fa.php');
+?>
 <!DOCTYPE html>
 <html lang="fa-AF">
 
@@ -11,36 +14,10 @@
   <!-- Font and Icon Links -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/contact-fa.css">
+    <link rel="stylesheet" href="assets/css/header-fa.css">
 </head>
 
 <body>
-  <header>
-    <button onclick="toggleMenu()" class="header-menu-mobile" id="menu-button">
-     <span class="material-symbols-outlined" id="menu-icon">menu</span>
-    </button>
-    <div class="div-logo-mobile">
-     <a href="index-fa.html"><img class="img-logo" src="assets/images/logo.svg" alt="logo" id="logo-mobile"></a> 
-    </div>
-    <nav id="nav-menu">
-      <div class="div-logo">
-       <a href="index-fa.html"><img class="img-logo" src="assets/images/logo.svg " alt="logo" id="logo"></a> 
-      </div>
-      <div>
-        <ul>
-          <li><a href="index-fa.html">صفحه اصلی<span class="material-symbols-outlined icons-menu">home</span></a></li>
-          <li><a href="ressources-fa.html">منابع<span class="material-symbols-outlined icons-menu">book</span></a></li>
-          <li><a href="about-fa.html">درباره<span class="material-symbols-outlined icons-menu">info</span></a></li>
-          <li><a href="contact-fa.html">تماس<span class="material-symbols-outlined icons-menu">person</span></a></li>
-        </ul>
-      </div>
-      <div class="img-us-moon">
-        <a href="contact.html"><img class="img-fa" src="assets/images/fa.png" title="تغییر زبان سایت" aria-label="تغییر زبان سایت"></a>
-        <img class="img-moon" src="assets/images/moon.png" title="تغییر حالت روشن و تاریک" aria-label="تغییر حالت روشن و تاریک" id="icon" />
-      </div>  
-    </nav>
-  </header>
-
-
 
 <!-- main -->
  <main>

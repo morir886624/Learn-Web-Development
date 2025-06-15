@@ -1,35 +1,36 @@
-
-
-let icon = document.getElementById("icon");
-let logo = document.getElementById("logo");
-let logoMobile = document.getElementById("logo-mobile");
-let logoAbout = document.getElementById("logo-about");
+const icons = document.querySelectorAll(".img-moon");
+const logo = document.getElementById("logo");
+const logoMobile = document.getElementById("logo-mobile");
+const logoAbout = document.getElementById("logo-about");
 
 function applyTheme(theme) {
   const isDark = theme === "dark";
 
   document.body.classList.toggle("dark-theme", isDark);
-  if (icon) icon.src = isDark ? "assets/images/sun.png" : "assets/images/moon.png";
-  if (logo) logo.src = isDark ? "assets/images/logo_mode_nuit.svg" : "assets/images/logo.svg";
-  if (logoMobile) logoMobile.src = isDark ? "assets/images/logo_mode_nuit.svg" : "assets/images/logo.svg";
-  if (logoAbout) logoAbout.src = isDark ? "assets/images/logo_mode_nuit.svg" : "assets/images/logo.svg";
+
+  icons.forEach(img => {
+    img.src = isDark ? "assets/images/sun.png" : "assets/images/moon.png";
+  });
+
+  const logoSrc = isDark ? "assets/images/logo_mode_nuit.svg" : "assets/images/logo.svg";
+  if (logo) logo.src = logoSrc;
+  if (logoMobile) logoMobile.src = logoSrc;
+  if (logoAbout) logoAbout.src = logoSrc;
 }
 
-//******************************************************************* */
-window.addEventListener("DOMContentLoaded", function(){
-  // Appliquer le thème au chargement
+document.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("theme") || "light";
   applyTheme(savedTheme);
 
-  // Gérer le clic sur l’icône
-  if (icon) {
-    icon.addEventListener("click", function(){
+  icons.forEach(img => {
+    img.addEventListener("click", () => {
       const newTheme = document.body.classList.contains("dark-theme") ? "light" : "dark";
       localStorage.setItem("theme", newTheme);
       applyTheme(newTheme);
     });
-  }
+  });
 });
+
 
 
 

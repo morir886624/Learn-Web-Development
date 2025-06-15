@@ -1,47 +1,25 @@
+<?php
+require_once('header.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="assets/images/logo.svg">
-  <title>Learn Web Development | Home</title>
-  <meta name="description" content="A beginner-friendly platform to learn web development step-by-step. Created by a student passionate about coding.">
-
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.svg">
+    <title>Learn Web Development | Home</title>
+    <meta name="description" content="A beginner-friendly platform to learn web development step-by-step. Created by a student passionate about coding.">
+    
   <!-- Font and Icon Links -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">   
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
-  <header>
-    <button onclick="toggleMenu()" class="header-menu-mobile" id="menu-button">
-      <span class="material-symbols-outlined" id="menu-icon">menu</span>
-    </button>
-
-    <div class="div-logo-mobile">
-      <a href="index.html"><img class="img-logo" src="assets/images/logo.svg" alt="logo" id="logo-mobile"></a> 
-    </div>
-
-    <nav id="nav-menu">
-      <div class="div-logo">
-        <a href="index.html"><img class="img-logo" src="assets/images/logo.svg " alt="logo" id="logo"></a> 
-      </div>
-
-      <div >
-        <ul>
-          <li><a href="index.html"><span class="material-symbols-outlined icons-menu">home</span>Home</a></li>
-          <li><a href="ressources.html"><span class="material-symbols-outlined icons-menu">book</span>Ressources</a></li>
-          <li><a href="about.html"><span class="material-symbols-outlined icons-menu">info</span>About</a></li>
-          <li><a href="contact.html"><span class="material-symbols-outlined icons-menu">person</span>Contact</a></li>
-        </ul>
-      </div>
-      <div class="img-us-moon">
-        <a href="index-fa.html"><img class="img-us" src="assets/images/us.png" title="Change site language" alt="flag of united states"></a>
-        <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon" id="icon" />
-      </div>  
-    </nav>
-  </header>
+  
 
   <!-- main -->
 
@@ -103,27 +81,10 @@
     </section>
   </main>
 
-    <!-- footer -->
-  <footer>
-    <div class="footer-box">
-      <div class="footer-box-row-mail">
-        <span class="material-symbols-outlined" >mail</span>
-        <a href="mailto:moeid6624@gmail.com" title="send an email" target="_blank">moeid6624@gmail.com</a>
-      </div>
 
-      <div class="footer-box-row-phone">
-        <span class="material-symbols-outlined">phone</span>
-        <a href="tel:+33745935173" title="call me">+33745935173</a>
-      </div>
-      
-      <div class="footer-box-row-phone">
-        <span class="material-symbols-outlined">account_balance</span>
-        <a href="legal-notice.html" title="read the legal notice" target="_blank">Legal notice</a>
-      </div>
-    </div>
-    <p>&copy; 2025 Learn Web Development. All rights reserved.</p>
-</footer>
-
+ <?php
+require_once('footer.php');
+?>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

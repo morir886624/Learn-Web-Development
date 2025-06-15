@@ -1,3 +1,6 @@
+<?php
+require_once('header-fa.php');
+?>
 <!DOCTYPE html>
 <html lang="fa-AF">
 
@@ -11,44 +14,18 @@
   <!-- Font and Icon Links -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/about-fa.css">
+    <link rel="stylesheet" href="assets/css/header-fa.css">
+  <link rel="stylesheet" href="assets/css/footer-fa.css">
 </head>
 
 <body>
-  <header>
-    <button onclick="toggleMenu()" class="header-menu-mobile" id="menu-button">
-     <span class="material-symbols-outlined" id="menu-icon">menu</span>
-    </button>
-    <div class="div-logo-mobile">
-     <a href="index-fa.html"><img class="img-logo" src="assets/images/logo.svg" alt="logo" id="logo-mobile"></a> 
-    </div>
-    <nav id="nav-menu">
-      <div class="div-logo">
-       <a href="index-fa.html"><img class="img-logo" src="assets/images/logo.svg " alt="logo" id="logo"></a> 
-      </div>
-      <div>
-        <ul>
-          <li><a href="index-fa.html">صفحه اصلی<span class="material-symbols-outlined icons-menu">home</span></a></li>
-          <li><a href="ressources-fa.html">منابع<span class="material-symbols-outlined icons-menu">book</span></a></li>
-          <li><a href="about-fa.html">درباره<span class="material-symbols-outlined icons-menu">info</span></a></li>
-          <li><a href="contact-fa.html">تماس<span class="material-symbols-outlined icons-menu">person</span></a></li>
-        </ul>
-      </div>
-      <div class="img-us-moon">
-        <a href="about.html"><img class="img-fa" src="assets/images/fa.png" title="تغییر زبان سایت" aria-label="تغییر زبان سایت"></a>
-        <img class="img-moon" src="assets/images/moon.png"  title="تغییر حالت روشن و تاریک" aria-label="تغییر حالت روشن و تاریک" id="icon" />
-      </div>  
-    </nav>
-  </header>
-
-
-
 <!-- main -->
 
 <main>
   <div class="container">
-    <div class="div-image" >
-      <img src="assets/images/image-about.png" alt="my-image">
-    </div>
+
+      <img class="my-image" src="assets/images/image-about.png" alt="my-image">
+
 
     <div class="main-text">
       <h2>
@@ -65,12 +42,12 @@
     </div>
   </div>
 
-  <div class="container2">
-    <div class="div-image" >
-      <img src="assets/images/logo.svg" alt="my-image" id="logo-about">
-    </div>
+  <div class="container-rtl">
+    
+      <img class="my-image" src="assets/images/logo.svg" alt="my-image" id="logo-about">
+    
 
-    <div class="main-text2">
+    <div class="main-text-rtl">
       <h2>
       هدف سایت  :          
       </h2>
@@ -85,9 +62,9 @@
   </div>
 
   <div class="container">
-    <div class="div-image" >
-     <img src="assets/images/image_objective.jpg" alt="my-image">
-    </div>
+    
+     <img class="my-image" src="assets/images/image_objective.jpg" alt="my-image">
+    
 
     <div class="main-text">
       <h2>
@@ -105,26 +82,7 @@
 
 
   <!-- footer -->
-<footer>
-  <div class="footer-box">
-    <div class="footer-box-row-mail">
-      <span class="material-symbols-outlined">mail</span>
-      <a href="mailto:moeid6624@gmail.com">moeid6624@gmail.com</a>
-    </div>
-
-    <div class="footer-box-row-phone">
-      <span class="material-symbols-outlined">phone</span>
-      <a href="tel:+33745935173">+33745935173</a>
-    </div>
-
-    <div class="footer-box-row-phone">
-      <span class="material-symbols-outlined">account_balance</span>
-      <a href="legal-notice-fa.html" target="_blank">اعلامیه حقوقی</a>
-    </div>
-  </div>
-  <p> .یادگیری توسعه وب ,تمام حقوق محفوظ است&copy;</p>
-</footer>
-
+ <?php require_once('footer-fa.php');?>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

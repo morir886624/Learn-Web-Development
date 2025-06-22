@@ -63,7 +63,7 @@ body{
   /* information */
 .information{
   justify-content: space-around;
-  margin: 100px 0;
+  margin: 50px 0;
   padding: 0 50px;
   box-sizing: border-box;
   }
@@ -83,11 +83,11 @@ body{
   color: var(--text-color);
   text-align: center;
   font-weight: 600;
-  margin-bottom: 0;
+  margin:10px 0;
   }
 
 .information-box h3{
-font-size: 25px;
+  font-size: 25px;
   color: var(--text-color);
   text-align: center;
   font-weight: 600;
@@ -118,21 +118,12 @@ font-size: 25px;
   box-shadow: #57b1e4 0px 0px 10px;
   margin:  8px 0;
   padding: 30px;
-  transition: 0.5s;
-  transform: scale(1);
   }
-
-.divs-information:hover{
-  border: #57b1e4 solid 2px;
-  }
-
 
 
   /* --------------------- TABLETTE --------------------- */
 
 @media screen and  (max-width: 1024px){
-
-
 .div-principal {
   margin: 20px;
   position: relative;
@@ -155,15 +146,7 @@ font-size: 25px;
   max-width: 80%;
   padding: 20px;
   }
-
-.divs-information:hover{
-  border: #57b1e4 solid 2px;
   }
-  }
-
-
-
-
                        /* mobil */
 
   @media  (max-width: 768px) {
@@ -180,7 +163,7 @@ font-size: 25px;
 
   /* information */
 .information{
-  padding: 0 20px;
+  margin-top: 20px;
   }
 
 .information h2{

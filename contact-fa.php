@@ -21,7 +21,7 @@ require_once('header-fa.php');
 
 <!-- main -->
  <main>
-
+<section id="contact">
   <form method="post" action="" class="form">
     <h2>تماس با من!</h2>
     <div class="name-lastname">
@@ -64,20 +64,21 @@ require_once('header-fa.php');
     </div>
   </form>
 
-  <section class="contact-box">
-    <div class="footer-box">
+  <div class="contact-box">
+    <address class="small-box">
       <span class="material-symbols-outlined icons">mail</span>        
       <a href="mailto:moeid6624@gmail.com" target="_blank">moeid6624@gmail.com</a>
-    </div>
+    </address>
 
-    <div class="footer-box">
+    <address class="small-box">
       <span class="material-symbols-outlined icons">Phone</span>
       <a href="tel:+33745935173">33745935173+</a>
-    </div>
+    </address>
     
-    <div class="footer-box">
+    <address class="small-box">
       <span  class="material-symbols-outlined icons">account_balance</span>
       <a href="legal-notice-fa.html" target="_blank">اعلامیه حقوقی</a>
+    </address>
     </div>
   </section>
 </main>

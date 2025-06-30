@@ -17,6 +17,7 @@ footer{
   }
 
 .footer-box{
+  gap: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,12 +26,13 @@ footer{
   padding: 20px 0;
   box-sizing: border-box;
   flex-direction: row;
+  margin-bottom: 10px;
   }
 
 .footer-box a{
   color: var(--text-color);
   font-size: 16px;
-  margin: 0 20px;
+  margin: 0 5px;
   font-weight: 500;
   text-decoration: underline;
   }
@@ -59,7 +61,7 @@ footer p{
   }
 
 
-  @media screen and  (max-width: 1024px){
+  @media (max-width: 1024px){
       /* footer */
 footer{
   margin-top: 50px;
@@ -70,7 +72,7 @@ footer{
 
 .footer-box a{
   font-size: 16px;
-  margin:10px 10px;
+  margin:0 5px;
   }
 
 .footer-box p{
@@ -85,12 +87,13 @@ footer{
 
                        /* mobil */
 
-  @media  (max-width: 768px) {
+  @media  (max-width: 640px) {
       /* footer */
 footer{
   margin-bottom: 50px;
 }
 .footer-box{
+  gap: 5px;
   display: flex;
   flex-direction: column;
   }

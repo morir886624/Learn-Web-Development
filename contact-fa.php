@@ -64,18 +64,18 @@ require_once('header-fa.php');
     </div>
   </form>
 
-  <div class="contact-box">
+  <div class="contact-box box">
     <address class="small-box">
       <span class="material-symbols-outlined icons">mail</span>        
       <a href="mailto:moeid6624@gmail.com" target="_blank">moeid6624@gmail.com</a>
     </address>
 
-    <address class="small-box">
+    <address class="small-box box">
       <span class="material-symbols-outlined icons">Phone</span>
       <a href="tel:+33745935173">33745935173+</a>
     </address>
     
-    <address class="small-box">
+    <address class="small-box box">
       <span  class="material-symbols-outlined icons">account_balance</span>
       <a href="legal-notice-fa.html" target="_blank">اعلامیه حقوقی</a>
     </address>
@@ -90,5 +90,6 @@ require_once('header-fa.php');
 
 <script src="assets/js/script.js"></script>
 <script src="assets/js/form.js"></script>
+<script src="assets/js/scroll.js"></script>
 </body>
 </html>

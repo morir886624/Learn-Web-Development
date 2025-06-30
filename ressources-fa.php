@@ -29,11 +29,8 @@ require_once('header-fa.php');
 
 <section class="section-ressources">
   <div class="sites">
-
-    <div class="big-box">
-      <div class="div-image">
+    <div class="big-box box">
         <img src="assets/images/Udemy.svg" alt="" />
-      </div>
       <div class="div-text">
         <h3>Udemy</h3>
         <p>دارای بیشتر از 1 میلیارد 
@@ -46,10 +43,8 @@ require_once('header-fa.php');
     </div>
 
 
-    <div class="big-box">
-      <div class="div-image">
+    <div class="big-box box">
         <img src="assets/images/w3schools.png" alt="" />
-      </div>
       <div class="div-text">
         <h3>W3schools</h3>
         <p>
@@ -62,10 +57,8 @@ require_once('header-fa.php');
       </div>
     </div>
 
-    <div class="big-box">
-      <div class="div-image">
+    <div class="big-box box">
         <img src="assets/images/mdn.png" alt="" />
-      </div>
       <div class="div-text">
         <h3>MDN</h3>
         <p>46 میلیون بازدید کننده
@@ -79,10 +72,8 @@ require_once('header-fa.php');
       </div>
     </div>
 
-    <div class="big-box">
-      <div class="div-image">
+    <div class="big-box box">
        <img src="assets/images/Treehouse.png" alt="" />
-      </div>
       <div class="div-text">
         <h3>Treehouse</h3>
         <p>1.2 میلیون شاگرد در 
@@ -97,10 +88,8 @@ require_once('header-fa.php');
 
   <!-- youtube -->
   <div class="youtubes">
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
-        <img src="assets/images/ninja.jpg" alt="" />
-      </div>
+    <div class="big-box-youtube box">
+        <img src="assets/images/ninja.png" alt="" />
       <div class="div-text">
         <h3>Net Ninja</h3>
         <p>دنبال کننده:1.74M</p>
@@ -110,10 +99,8 @@ require_once('header-fa.php');
       </div>
     </div>
 
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
-        <img src="assets/images/traversy.jpg" alt="" />
-      </div>
+    <div class="big-box-youtube box">
+        <img src="assets/images/traversy.png" alt="" />
       <div class="div-text">
         <h3>Traversy Media</h3>
         <p>دنبال کننده:2.34M</p>
@@ -123,10 +110,8 @@ require_once('header-fa.php');
       </div>
     </div>
 
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
+    <div class="big-box-youtube box">
         <img src="assets/images/freeCodeCamp.org.svg" alt="" />
-      </div>
       <div class="div-text">
         <h3>freeCodeCamp.org</h3>
         <p>10.6M دنبال کننده</p>
@@ -136,10 +121,8 @@ require_once('header-fa.php');
       </div>
     </div>
 
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
-       <img src="assets/images/web-dev-simplified.jpg" alt="" />
-      </div>
+    <div class="big-box-youtube box">
+       <img src="assets/images/web-dev-simplified.png" alt="" />
       <div class="div-text">
         <h3>Web Dev Simplified</h3>
         <p>1.69M دنبال کننده</p>
@@ -155,5 +138,6 @@ require_once('header-fa.php');
  <?php require_once('footer-fa.php');?>
 
 <script src="assets/js/script.js"></script>
+<script src="assets/js/scroll.js"></script>
 </body>
 </html>

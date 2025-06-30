@@ -11,7 +11,9 @@ body{
 :root {
   --bg-color: #fff;
   --text-color: #15202B;
-  --box-color: rgb(202, 220, 231);
+  --box-shadow:4px 2px 15px 0px rgba(87,177,228,0.57);
+  --box-color: #cadce77f;
+
 }
 .dark-theme {
   --bg-color: #15202B;
@@ -31,6 +33,7 @@ main{
     box-sizing: border-box;
     background-color: var(--box-color);
     border-radius: 12px;
+    box-shadow: var(--box-shadow);
 }
 .container-rtl{
     display: grid;
@@ -41,10 +44,12 @@ main{
     background-color: var(--box-color);
     direction: rtl;
     border-radius: 12px;
+    box-shadow: var(--box-shadow);
 }
 .my-image {
     width: 100%;
     object-fit: cover;
+    border-radius:  10px 0 0 10px ;
 }
 .main-text,.main-text-rtl{
     display: flex;
@@ -63,10 +68,21 @@ main{
     font-size: 20px;
     font-weight: 500;
 }
+  .box {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.box.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /* ------- MEDIA QUERIES POUR TABLETTE --------------------- */
 
-@media screen and  (max-width: 1024px){
+@media (max-width: 1024px){
 
 /*------------ main */
 main{

@@ -66,18 +66,18 @@ require_once('header.php');
       <button type="reset" class="button-cancel">Cancel</button>
     </div>
   </form>
-    <div class="contact-box">
+    <div class="contact-box box">
       <address class="small-box">
         <span class="material-symbols-outlined">mail</span>        
         <a href="mailto:moeid6624@gmail.com" target="_blank">moeid6624@gmail.com</a>
       </address>
 
-      <address class="small-box">
+      <address class="small-box box">
         <span class="material-symbols-outlined">call</span>
         <a href="tel:+33745935173">+33745935173</a>
       </address>
       
-      <address class="small-box">
+      <address class="small-box box">
         <span  class="material-symbols-outlined">account_balance</span>
         <a href="legal-notice.html" target="_blank">Legal notice</a>
       </address>
@@ -92,5 +92,6 @@ require_once('header.php');
 
 <script src="assets/js/script.js"></script>
 <script src="assets/js/form.js"></script>
+<script src="assets/js/scroll.js"></script>
 </body>
 </html>

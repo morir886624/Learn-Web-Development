@@ -1,386 +1,252 @@
-  html {
-  scroll-behavior: smooth;
-  }
-  body{
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
-  direction: rtl;
-  }
-
-  :root {
-  --bg-color: #fff;
-  /* --text-color: #191919; */
-  --text-color: #15202B;
-  /* --text-color: #121212; */
-
-  /* box-colors */
-  --box-color: #cadce7;
-  }
-
-  .dark-theme {
-  /* --bg-color: #191919; */
-  --bg-color: #15202B;
-  /* --bg-color: #121212; */
-  --text-color: #fff;
-
-
-  /* box-colors */
-  --box-color:#00263d;
-
-  }
-
-
-  /* image ressources */
-
-  .div-image-principal{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 30px 0 30px ;
-
-
-  }
-
-  .div-image-principal img{
-  width: 100%;
-  height: 700px;
-  margin: 0 20px;
-  object-fit:fill;
-  box-sizing: border-box;
-  border-radius: 10px;
-  box-shadow: #57b1e4 0px 0px 10px;
-  }
-
-
-  /* section ressources */
-
-  .section-ressources{
-  padding: 0;
-  max-width: 100%;
-  margin: 100px 30px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  row-gap: 50px;
-  }
-
-  .sites{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  flex-wrap: wrap;
-
-  }
-
-
-
-
-  .big-box{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--box-color);
-  padding: 30px;
-  height:500px ;
-  border-radius: 10px;
-  margin: 0 20px;
-  box-sizing: border-box;
-
-  }
-
-  .big-box-youtube{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color:var(--box-color);
-  padding: 30px;
-  height:500px ;
-  border-radius: 10px;
-  margin: 0 20px;
-  box-sizing: border-box;
-
-  }
-
-
-
-  .div-image{
-  background-color: var(--bg-color);
-  width: 100%;
-  height:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: #57b1e4 0px 0px 10px;
-
-  }
-
-  .youtubes{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-
-  .div-image-youtube{
-  background-color: var(--bg-color);
-  width: 100%;
-  height:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: #e45757 0px 0px 10px;
-
-  }
-
-
-  .div-image-youtube img{
-  max-width: 200px;
-  width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-sizing: border-box;
-
-  }
-  .div-image img{
-  max-width: 200px;
-  width: 100%;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-sizing: border-box;
-
-
-  }
-
-
-
-  .div-text{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: var(--text-color);
-  box-sizing: border-box;
-  }
-
-  .div-text h3{
-  font-size: 25px;
-  color: var(--text-color);
-  font-weight: 600;
-  margin-bottom: 10px;
-  }
-
-  .div-button , .div-button-youtube{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-  }
-
-
-
-  .div-button a{
-  text-decoration: none;
-  color: var(--bg-color);
-  background-color: #57b1e4;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 500;
-  /* margin-top: 20px; */
-  text-align: center;
-  max-width: 100%;
-  transition: 0.3s;
-  }
-
-  .div-button-youtube a{
-  text-decoration: none;
-  color: var(--bg-color);
-  background-color: #e45757;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 500;
-  /* margin-top: 20px; */
-  transition: 0.3s;
-  }
-
-  .div-button a:hover{
-  background-color: var(--bg-color);
-  color: #57b1e4;
-  }
-
-  .div-button-youtube a:hover{
-  background-color: var(--bg-color);
-  color: #e45757;
-
-  }
-
-
-
-
-  /* --------------------- MEDIA QUERIES POUR TABLETTE --------------------- */
-  @media screen and  (max-width: 1024px){
- 
-
-  /* IMAGE PRINCIPAL */
-
-  .div-principal {
-  margin: 20px;
-  }
-
-  .div-principal h1 {
-  font-size: 27px;
-  }
-
-  .img-principale {
-  height: 400px;
-  }
-
-
-  /* image ressources */
-
-  .div-image-principal{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 30px 0 30px ;
-
-
-  }
-
+html {
+scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'B Nazanin';
+  src: url('fonts/B-Nazanin.woff2') format('woff2'),
+        url('fonts/B-Nazanin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background-color: var(--bg-color);
+color: var(--text-color);
+transition: background-color 0.3s, color 0.3s;
+direction: rtl;
+}
+:root {
+--bg-color: #fff;
+--text-color: #15202B;
+--box-shadow:4px 2px 15px 0px rgba(87,177,228,0.57);
+/* box-colors */
+--box-color: #cadce77f;
+}
+.dark-theme {
+--bg-color: #15202B;
+--text-color: #fff;
+/* box-colors */
+--box-color:#00263d;
+}
+/* image ressources */
+.div-image-principal{
+display: flex;
+margin: 20px 30px 0 30px ;
+}
 .div-image-principal img{
-  height: 100%;
-  }
+width: 100%;
+height: 500px;
+object-fit:fill;
+box-sizing: border-box;
+border-radius: 10px;
+box-shadow: var(--box-shadow)
+}
+/* section ressources */
+.section-ressources{
+padding: 0;
+margin: 100px 30px;
+display: grid;
+/* grid-template-rows: 1fr 1fr; */
+row-gap: 20px;
+}
+.sites{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+}
+.big-box{
+display: grid;
+grid-template-rows:1fr 1fr 1fr;
+height: 400px;
+box-shadow: var(--box-shadow);
+padding: 20px;
+border-radius: 10px;
+box-sizing: border-box;
+background-color: var(--box-color);
+}
+.big-box img{
+margin: auto;
+height: 120px;
+object-fit: cover;
+border-radius: 10px;
+}
+.youtubes{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+}
+.big-box-youtube{
+display: grid;
+grid-template-rows:1fr 1fr 1fr;
+height: 400px;
+box-shadow: var(--box-shadow);
+padding: 20px;
+border-radius: 10px;
+box-sizing: border-box;
+background-color: var(--box-color);
+}
+.big-box-youtube img{
+margin: auto;
+height: 120px;
+object-fit: cover;
+border-radius: 10px;
+}
+.div-text{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: var(--text-color);
+box-sizing: border-box;
+}
+.div-text h3{
+font-size: 25px;
+color: var(--text-color);
+font-weight: 600;
+margin:0;
+}
+.div-text p{
+margin: 0;
+}
+.div-button , .div-button-youtube{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div-button-youtube p{
+margin: 0;
+}
+.div-button a{
+text-decoration: none;
+color: var(--bg-color);
+background-color: #57b1e4;
+padding: 10px 20px;
+border-radius: 10px;
+font-size: 15px;
+font-weight: 500;
+text-align: center;
+max-width: 100%;
+transition: 0.3s;
+}
+.div-button-youtube a{
+text-decoration: none;
+color: var(--bg-color);
+background-color: #e45757;
+padding: 10px 20px;
+border-radius: 10px;
+font-size: 15px;
+font-weight: 500;
+transition: 0.3s;
+}
+.div-button a:hover{
+background-color: var(--bg-color);
+color: #57b1e4;
+}
+.div-button-youtube a:hover{
+background-color: var(--bg-color);
+color: #e45757;
+}
+.box {
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.box.visible {
+opacity: 1;
+transform: translateY(0);
+}
 
-
-  /* section ressources */
-
+/* --------------------- MEDIA QUERIES POUR TABLETTE --------------------- */
+@media screen and  (max-width: 1024px){
+/* IMAGE PRINCIPAL */
+.div-principal {
+margin: 20px;
+}
+.div-principal h1 {
+font-size: 27px;
+}
+.img-principale {
+height: 400px;
+}
+/* image ressources */
+.div-image-principal{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 30px 0 30px ;
+}
+.div-image-principal img{
+height: 100%;
+}
+/* section ressources */
 .sites,
 .youtubes{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
-  }
-
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 20px;
+row-gap: 20px;
+}
 .big-box-youtube,
 .big-box{
-  margin: 0;
-  }
-
-  .div-text{
-    font-size: 15px;
-  }
-
-  .div-text h3{
-  font-size: 20px;
-  color: var(--text-color);
-  font-weight: 600;
-  margin: 0;
-  }
-
-
+margin: 0;
+}
+.big-box img{
+height: 100px;
+}
+.big-box-youtube img{
+height: 100px;
+}
+.div-text{
+font-size: 15px;
+}
+.div-text h3{
+font-size: 20px;
+color: var(--text-color);
+font-weight: 600;
+margin: 0;
+}
 .div-button,
 .div-button-youtube a{
 font-size: 15px;
-  }
-  }
-  /* mobil */
+}
+}
 
-  @media  (max-width: 640px) {
-  
-
-  /* section ressources */
-
-
-  .sites{
-  display: flex;
-  justify-content: center;
-  }
-
-  .youtubes{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-
-.big-box{
-  width: 90%;
-  padding: 20px;
-  max-height: 400px;
-  }
-
-  .big-box-youtube{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  background-color: var(--box-color);
-  padding: 20px;
-  box-sizing: border-box;
-  max-height: 400px;
-  height: 100%;
-  border-radius: 10px;
-  margin: 20px 0;
-  box-sizing: border-box;
-
-  }
-
-
-
-
-
-  .div-image{
-  max-height: 100px;
-  }
-
-  .div-image img{
-  max-width: 100px;
-  width: 100%;
-  max-height: 100px;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-sizing: border-box;
-
-
-  }
-
-  .div-image-youtube{
-  background-color: var(--bg-color);
-  width: 100%;
-  max-width: 150px;
-  max-height: 100px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: #e45757 0px 0px 10px;
-
-  }
-
-
-  .div-image-youtube img{
-  max-height: 100px;
-  }
-  }
+/* mobil */
+@media  (max-width: 768px) {
+/* section ressources */
+.sites,.youtubes{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.big-box,.big-box-youtube{
+width: 100%;
+max-height: 300px;
+border-radius: 10px;
+margin: 10px 0;
+box-sizing: border-box;
+}
+.div-text h3{
+font-size: 16px;
+}
+.div-text p{
+font-size: 12px;
+}
+.div-button-youtube a{
+font-size: 12px;
+}
+.div-button a{
+font-size: 12px;
+}
+.big-box img{
+height: 100px;
+}
+.big-box-youtube img{
+height: 100px;
+}
+}

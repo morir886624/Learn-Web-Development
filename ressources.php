@@ -30,10 +30,8 @@ require_once('header.php');
 
 <section class="section-ressources">
   <div class="sites">
-    <div class="big-box ">
-      <div class="div-image">
+    <div class="big-box box ">
         <img src="assets/images/Udemy.svg" alt="" />
-      </div>
       <div class="div-text">
         <h3>Udemy</h3>
         <p>
@@ -46,10 +44,8 @@ require_once('header.php');
     </div>
 
 
-    <div class="big-box">
-      <div class="div-image">
+    <div class="big-box box">
        <img src="assets/images/w3schools.png" alt="" />
-      </div>
       <div class="div-text">
         <h3>W3schools</h3>
         <p>
@@ -62,10 +58,11 @@ require_once('header.php');
       </div>
     </div>
 
-    <div class="big-box ">
-      <div class="div-image">
+    <div class="big-box box ">
+      
+    
         <img src="assets/images/mdn.png" alt="" />
-      </div>
+      
       <div class="div-text">
         <h3>MDN</h3>
         <p>45K Pages of content <br> 7 Languages <br> 46M Monthly pageviews</p>
@@ -74,10 +71,11 @@ require_once('header.php');
         <a href="https://developer.mozilla.org/en-US/" target="_blank">Voir le site !</a>
       </div>
     </div>
-    <div class="big-box ">
-      <div class="div-image">
+    <div class="big-box box ">
+      
+    
         <img src="assets/images/Treehouse.png" alt="" />
-      </div>
+      
       <div class="div-text">
         <h3>Treehouse</h3>
         <p>1.2 million students across the globe</p>
@@ -90,10 +88,10 @@ require_once('header.php');
 
   <!-- youtube -->
   <div class="youtubes">
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
-       <img src="assets/images/ninja.jpg" alt="" />
-      </div>
+    <div class="big-box-youtube box">
+      
+       <img src="assets/images/ninja.png" alt="" />
+      
       <div class="div-text">
         <h3>Net Ninja</h3>
         <p>1.74M subscribers</p>
@@ -103,10 +101,10 @@ require_once('header.php');
       </div>
     </div>
 
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
-       <img src="assets/images/traversy.jpg" alt="" />
-      </div>
+    <div class="big-box-youtube box">
+      
+       <img src="assets/images/traversy.png" alt="" />
+      
       <div class="div-text">
         <h3>Traversy Media</h3>
         <p>2.34M subscribers</p>
@@ -115,12 +113,12 @@ require_once('header.php');
         <a href="https://www.youtube.com/@TraversyMedia" target="_blank">Visiter la chaîne !</a>
       </div>
     </div>
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
+    <div class="big-box-youtube box">
+      
        <img src="assets/images/freeCodeCamp.org.svg" alt="" />
-      </div>
+      
       <div class="div-text">
-        <h3>freeCodeCamp.org</h3>
+        <h3>free Code Camp.org</h3>
         <p>10.6M subscribers</p>
       </div>
       <div class="div-button-youtube">
@@ -128,10 +126,10 @@ require_once('header.php');
       </div>
     </div>
 
-    <div class="big-box-youtube">
-      <div class="div-image-youtube">
-       <img src="assets/images/web-dev-simplified.jpg" alt="" />
-      </div>
+    <div class="big-box-youtube box">
+      
+       <img src="assets\images\web-dev-simplified.png" alt="" />
+      
       <div class="div-text">
         <h3>Web Dev Simplified</h3>
         <p>1.69M subscribers</p>
@@ -147,5 +145,6 @@ require_once('header.php');
 require_once('footer.php');
 ?>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/scroll.js"></script>
 </body>
 </html>

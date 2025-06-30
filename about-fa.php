@@ -22,11 +22,8 @@ require_once('header-fa.php');
 <!-- main -->
 
 <main>
-  <div class="container">
-
+  <div class="container box">
       <img class="my-image" src="assets/images/image-about.png" alt="my-image">
-
-
     <div class="main-text">
       <h2>
       گذشته من :        
@@ -42,11 +39,8 @@ require_once('header-fa.php');
     </div>
   </div>
 
-  <div class="container-rtl">
-    
+  <div class="container-rtl box">
       <img class="my-image" src="assets/images/logo.svg" alt="my-image" id="logo-about">
-    
-
     <div class="main-text-rtl">
       <h2>
       هدف سایت  :          
@@ -61,11 +55,8 @@ require_once('header-fa.php');
     </div>
   </div>
 
-  <div class="container">
-    
+  <div class="container box">
      <img class="my-image" src="assets/images/image_objective.jpg" alt="my-image">
-    
-
     <div class="main-text">
       <h2>
       در آینده :          
@@ -79,10 +70,9 @@ require_once('header-fa.php');
   </div>
 </main>
 
-
-
   <!-- footer -->
  <?php require_once('footer-fa.php');?>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/scroll.js"></script>
 </body>
 </html>

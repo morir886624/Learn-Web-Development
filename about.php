@@ -24,7 +24,7 @@ require_once('header.php');
 <!-- main -->
 
 <main>
-  <div class="container">
+  <div class="container box">
       <img class="my-image" src="assets/images/image-about.png" alt="my-image">
     <div class="main-text">
       <h2>
@@ -35,11 +35,8 @@ require_once('header.php');
       </p>
     </div>
   </div>
-  <div class="container-rtl">
-
+  <div class="container-rtl box">
       <img class="my-image" src="assets/images/logo.svg" alt="my-image" id="logo-about">
-
-
     <div class="main-text-rtl">
       <h2>
       Website Objective :          
@@ -49,8 +46,8 @@ require_once('header.php');
       </p>
     </div>
   </div>
-  <div class="container">
 
+  <div class="container box">
       <img class="my-image" src="assets/images/image_objective.jpg" alt="my-image">
     <div class="main-text">
       <h2>
@@ -68,5 +65,6 @@ require_once('header.php');
 require_once('footer.php');
 ?>
 <script src="assets/js/script.js" ></script>
+<script src="assets/js/scroll.js" ></script>
 </body>
 </html>

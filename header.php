@@ -1,6 +1,5 @@
-
-  <header >
-    <button onclick="toggleMenu()" class="header-menu-mobile" id="menu-button">
+<header >
+    <button class="header-menu-mobile" id="menu-button">
       <span class="material-symbols-outlined" id="menu-icon">menu</span>
     </button>
 
@@ -16,11 +15,11 @@
 
       <div class="img-us-moon-tab">
         <a href="index-fa.php"><img class="img-us" src="assets/images/fa.png" title="Change site language" alt="flag of united states"></a>
-        <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon" id="" />
+        <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon"/>
       </div>  
     </nav>
     <div class="img-us-moon">
       <a href="index-fa.php"><img class="img-us" src="assets/images/fa.png" title="Change site language" alt="flag of united states"></a>
-      <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon" id="" />
+      <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon"/>
     </div>  
   </header>

@@ -3,60 +3,63 @@ const logo = document.getElementById("logo");
 const logoMobile = document.getElementById("logo-mobile");
 const logoAbout = document.getElementById("logo-about");
 
-function applyTheme(theme) {
-  const isDark = theme === "dark";
+// Cette fonction applique le thème (clair ou sombre)
+function appliquerTheme(theme) {
+  // Est-ce que le thème est "dark" ?
+  const modeSombre = theme === "dark";
 
-  document.body.classList.toggle("dark-theme", isDark);
+  // On ajoute ou enlève la classe "dark-theme" au <body>
+  document.body.classList.toggle("dark-theme", modeSombre);
 
-  icons.forEach(img => {
-    img.src = isDark ? "assets/images/sun.png" : "assets/images/moon.png";
+  icons.forEach(function(img) {
+    if (modeSombre) {
+      img.src = "assets/images/sun.png"; 
+    } else {
+      img.src = "assets/images/moon.png"; 
+    }
   });
 
-  const logoSrc = isDark ? "assets/images/logo_mode_nuit.svg" : "assets/images/logo.svg";
-  if (logo) logo.src = logoSrc;
-  if (logoMobile) logoMobile.src = logoSrc;
-  if (logoAbout) logoAbout.src = logoSrc;
+let nouvelleImageLogo;
+if (modeSombre) {
+  nouvelleImageLogo = "assets/images/logo_mode_nuit.svg";
+} else {
+  nouvelleImageLogo = "assets/images/logo.svg";
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const savedTheme = localStorage.getItem("theme") || "light";
-  applyTheme(savedTheme);
+if (logo) {
+  logo.src = nouvelleImageLogo;
+}
+if (logoMobile) {
+  logoMobile.src = nouvelleImageLogo;
+}
+if (logoAbout) {
+  logoAbout.src = nouvelleImageLogo;
+}
+}
 
-  icons.forEach(img => {
-    img.addEventListener("click", () => {
-      const newTheme = document.body.classList.contains("dark-theme") ? "light" : "dark";
-      localStorage.setItem("theme", newTheme);
-      applyTheme(newTheme);
+// Quand la page est chargée
+document.addEventListener("DOMContentLoaded", function() {
+  // On récupère le thème choisi précédemment, ou "light" si rien n'est enregistré
+  const themeSauvegarde = localStorage.getItem("theme") || "light";
+  appliquerTheme(themeSauvegarde);
+
+  // Quand on clique sur une icône, on change de thème
+  icons.forEach(function(img) {
+    img.addEventListener("click", function() {
+      // On vérifie si on est déjà en mode sombre
+      const nouveauTheme = document.body.classList.contains("dark-theme") ? "light" : "dark";
+      // On sauvegarde le nouveau thème
+      localStorage.setItem("theme", nouveauTheme);
+      // On applique le nouveau thème
+      appliquerTheme(nouveauTheme);
     });
   });
 });
 
+document.getElementById("menu-button").addEventListener("click", function() {
+  const menu = document.getElementById("nav-menu");
+  const icon = document.getElementById("menu-icon");
 
-
-
-
-
-
-let toggleBtn = document.getElementById("menu-toggle");
-let navMenu = document.getElementById("nav-menu");
-
-toggleBtn.addEventListener("click", function(){
-  navMenu.classList.toggle("active");
-});    
-
-function toggleMenu() {
-    let nav = document.getElementById("nav-menu");
-    let icon = document.getElementById("menu-icon");
-  
-    nav.classList.toggle("active");
-    if (nav.classList.contains("active")) {
-      icon.textContent = "close"; 
-    } else {
-      icon.textContent = "menu"; 
-    }  
-  }  
-
-  
-
-
-
+  menu.classList.toggle("active");
+  icon.textContent = menu.classList.contains("active") ? "close" : "menu";
+});

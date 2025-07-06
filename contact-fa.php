@@ -1,9 +1,5 @@
-<?php
-require_once('header-fa.php');
-?>
 <!DOCTYPE html>
 <html lang="fa-AF">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +14,9 @@ require_once('header-fa.php');
 </head>
 
 <body>
-
+<?php
+require_once('header-fa.php');
+?>
 <!-- main -->
  <main>
 <section id="contact">
@@ -47,7 +45,7 @@ require_once('header-fa.php');
 
       <div class="phone">
         <label for="number"> شماره تماس : </label>
-        <input class="item"  type="number" id="number" name="number" placeholder="********۰۷" autocomplete="off">
+        <input   type="number" id="number" name="number" placeholder="********۰۷" autocomplete="off">
          <div class="error-txt">شماره تماس نمی‌تواند خالی باشد</div>
       </div>
     </div>
@@ -63,6 +61,7 @@ require_once('header-fa.php');
       <button type="reset" class="button-cancel">لغو</button>
     </div>
   </form>
+  <div id="confirmation" class="message-box"></div>
 
   <div class="contact-box box">
     <address class="small-box">

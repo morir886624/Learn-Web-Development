@@ -1,6 +1,3 @@
-<?php
-require_once('header-fa.php');
-?>
 <!DOCTYPE html>
 <html lang="fa-AF">
 
@@ -19,15 +16,14 @@ require_once('header-fa.php');
 </head>
 
 <body>
-
-
-
-
+<?php
+require_once('header-fa.php');
+?>
 <main>
 
   <!-- image principal -->
   <div class="div-principal">
-    <img class="img-principale" src="assets/images/image_principale.png" alt="">
+    <img class="img-principale" src="assets/images/image_principale.webp" alt="">
     <h1>خوش آمدید به سایت<br>Learn Web Development !<br></h1>
   </div>
 

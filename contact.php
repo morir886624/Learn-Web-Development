@@ -1,6 +1,3 @@
-<?php
-require_once('header.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,10 +15,10 @@ require_once('header.php');
 </head>
 
 <body>
-
-
+<?php
+require_once('header.php');
+?>
 <!-- main -->
-
 <main>
   
   <section id="contact">
@@ -50,7 +47,7 @@ require_once('header.php');
 
       <div class="phone">
         <label for="number">Phone number :</label>
-        <input class="item"  type="number" id="number" name="number" placeholder="07********" autocomplete="off">
+        <input   type="number" id="number" name="number" placeholder="07********" autocomplete="off">
         <div class="error-txt">Phone number can't be blank</div>
       </div>
     </div>
@@ -66,6 +63,9 @@ require_once('header.php');
       <button type="reset" class="button-cancel">Cancel</button>
     </div>
   </form>
+  <div id="confirmation" class="message-box"></div>
+
+
     <div class="contact-box box">
       <address class="small-box">
         <span class="material-symbols-outlined">mail</span>        

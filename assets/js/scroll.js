@@ -1,17 +1,18 @@
-  
-const boxes = document.querySelectorAll('.box');
+// On sélectionne toutes les boîtes à animer
+const boites = document.querySelectorAll('.box');
 
-function revealOnScroll() {
-  boxes.forEach(box => {
-    const rect = box.getBoundingClientRect();
-    if (rect.top < window.innerHeight - 100) {
-      box.classList.add('visible');
+// Fonction pour afficher la boîte quand elle arrive à l'écran
+function afficherQuandVisible() {
+  boites.forEach(function(boite) {
+    const position = boite.getBoundingClientRect();
+
+    // Si la boîte est à moins de 100px du bas de l’écran
+    if (position.top < window.innerHeight - 100) {
+      boite.classList.add('visible');
     }
   });
 }
 
-window.addEventListener('scroll', revealOnScroll);
-window.addEventListener('load', revealOnScroll); // pour afficher les boîtes déjà visibles
-
-
-
+// Quand on fait défiler la page OU que la page se charge
+window.addEventListener('scroll', afficherQuandVisible);
+window.addEventListener('load', afficherQuandVisible);

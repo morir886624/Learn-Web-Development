@@ -1,9 +1,5 @@
-<?php
-require_once('header-fa.php');
-?>
 <!DOCTYPE html>
 <html lang="fa-AF">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +15,10 @@ require_once('header-fa.php');
 </head>
 
 <body>
+  <?php
+require_once('header-fa.php');
+?>
 <!-- main -->
-
 <main>
   <div class="container box">
       <img class="my-image" src="assets/images/image-about.png" alt="my-image">

@@ -1,6 +1,3 @@
-<?php
-require_once('header-fa.php');
-?>
 <!DOCTYPE html>
 <html lang="fa-AF">
 
@@ -19,10 +16,10 @@ require_once('header-fa.php');
 </head>
 
 <body>
-
-
+<?php
+require_once('header-fa.php');
+?>
 <!-- main sections -->
-
 <div class="div-image-principal">
   <img src="assets/images/image-ressources-fa.jpg" alt="" />
 </div>

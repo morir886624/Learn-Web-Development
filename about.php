@@ -1,6 +1,3 @@
- <?php
-require_once('header.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,10 +16,10 @@ require_once('header.php');
 </head>
 
 <body>
-
-
+<?php
+require_once('header.php');
+?>
 <!-- main -->
-
 <main>
   <div class="container box">
       <img class="my-image" src="assets/images/image-about.png" alt="my-image">

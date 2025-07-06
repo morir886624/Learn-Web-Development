@@ -1,5 +1,5 @@
 <header >
-    <button onclick="toggleMenu()" class="header-menu-mobile" id="menu-button">
+    <button class="header-menu-mobile" id="menu-button">
       <span class="material-symbols-outlined" id="menu-icon">menu</span>
     </button>
 

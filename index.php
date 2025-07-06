@@ -1,9 +1,5 @@
-<?php
-require_once('header.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,19 +12,17 @@ require_once('header.php');
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/header.css">
   <link rel="stylesheet" href="assets/css/footer.css">
-  <link rel="stylesheet" href="assets/css/reset.css">
 </head>
 
 <body>
-  
-
+  <?php
+require_once('header.php');
+?>
   <!-- main -->
-
-    <main>
-      
+    <main> 
   <!-- image principal -->
     <div class="div-principal">
-      <img class="img-principale" src="assets/images/image_principale.png" alt="an images that represent my past and present">
+      <img  class="img-principale" src="assets/images/image_principale.webp" alt="an images that represent my past and present">
       <h1>Welcome to <br> Learn Web Development !</h1>
     </div>
 

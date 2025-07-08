@@ -1,6 +1,5 @@
 // On sélectionne toutes les boîtes à animer
 const boites = document.querySelectorAll('.box');
-
 // Fonction pour afficher la boîte quand elle arrive à l'écran
 function afficherQuandVisible() {
   boites.forEach(function(boite) {
@@ -12,7 +11,6 @@ function afficherQuandVisible() {
     }
   });
 }
-
-// Quand on fait défiler la page OU que la page se charge
+//زمانی که صفحه را اسکرول می‌کنید یا زمانی که صفحه بارگذاری می‌شود
 window.addEventListener('scroll', afficherQuandVisible);
 window.addEventListener('load', afficherQuandVisible);

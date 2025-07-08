@@ -1,16 +1,15 @@
-
-  <!-- footer -->
+<!-- footer -->
 <footer>
   <div class="footer-box">
-    <div class="footer-box-row-mail">
+    <address class="footer-box-row-mail">
       <span class="material-symbols-outlined">mail</span>
       <a href="mailto:moeid6624@gmail.com">moeid6624@gmail.com</a>
-    </div>
+    </address>
 
-    <div class="footer-box-row-phone">
+    <address class="footer-box-row-phone">
       <span class="material-symbols-outlined">phone</span>
       <a href="tel:+33745935173">+33745935173</a>
-    </div>
+    </address>
 
     <div class="footer-box-row-phone">
       <span class="material-symbols-outlined">account_balance</span>

@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="assets/images/logo.svg">
   <title>Learn Web Development | Resources</title>
   <meta name="description" content="Find useful resources, tutorials, and links to help you learn HTML, CSS, JavaScript and more.">
@@ -20,19 +20,18 @@
 require_once('header.php');
 ?>
 <!-- main sections -->
-
 <div class="div-image-principal">
-  <img src="assets/images/image-ressources.jpg" alt="" />
+  <img src="assets/images/image-ressources.jpg" alt="la définition de html,css et js">
 </div>
 
 <section class="section-ressources">
   <div class="sites">
     <div class="big-box box ">
-        <img src="assets/images/Udemy.svg" alt="" />
+        <img src="assets/images/Udemy.svg" alt="Udemy">
       <div class="div-text">
         <h3>Udemy</h3>
         <p>
-        75 millions participants <br />Plus d'un milliard inscriptions aux
+        75 millions participants <br>Plus d'un milliard inscriptions aux
         cours</p>
       </div>
       <div class="div-button">
@@ -40,9 +39,8 @@ require_once('header.php');
       </div>
     </div>
 
-
     <div class="big-box box">
-       <img src="assets/images/w3schools.png" alt="" />
+       <img src="assets/images/w3schools.png" alt="W3schools">
       <div class="div-text">
         <h3>W3schools</h3>
         <p>
@@ -56,10 +54,7 @@ require_once('header.php');
     </div>
 
     <div class="big-box box ">
-      
-    
-        <img src="assets/images/mdn.png" alt="" />
-      
+        <img src="assets/images/mdn.png" alt="MDN">
       <div class="div-text">
         <h3>MDN</h3>
         <p>45K Pages of content <br> 7 Languages <br> 46M Monthly pageviews</p>
@@ -69,10 +64,7 @@ require_once('header.php');
       </div>
     </div>
     <div class="big-box box ">
-      
-    
-        <img src="assets/images/Treehouse.png" alt="" />
-      
+        <img src="assets/images/Treehouse.png" alt="Treehouse">
       <div class="div-text">
         <h3>Treehouse</h3>
         <p>1.2 million students across the globe</p>
@@ -86,9 +78,7 @@ require_once('header.php');
   <!-- youtube -->
   <div class="youtubes">
     <div class="big-box-youtube box">
-      
-       <img src="assets/images/ninja.png" alt="" />
-      
+       <img src="assets/images/ninja.png" alt="Net Ninja">
       <div class="div-text">
         <h3>Net Ninja</h3>
         <p>1.74M subscribers</p>
@@ -97,11 +87,8 @@ require_once('header.php');
         <a href="https://www.youtube.com/@NetNinja" target="_blank">Visiter la chaîne !</a>
       </div>
     </div>
-
     <div class="big-box-youtube box">
-      
-       <img src="assets/images/traversy.png" alt="" />
-      
+       <img src="assets/images/traversy.png" alt="Traversy Media">
       <div class="div-text">
         <h3>Traversy Media</h3>
         <p>2.34M subscribers</p>
@@ -111,9 +98,7 @@ require_once('header.php');
       </div>
     </div>
     <div class="big-box-youtube box">
-      
-       <img src="assets/images/freeCodeCamp.org.svg" alt="" />
-      
+       <img src="assets/images/freeCodeCamp.org.svg" alt="free Code Camp.org">
       <div class="div-text">
         <h3>free Code Camp.org</h3>
         <p>10.6M subscribers</p>
@@ -122,11 +107,8 @@ require_once('header.php');
         <a href="https://www.youtube.com/@freecodecamp" target="_blank">Visiter la chaîne !</a>
       </div>
     </div>
-
     <div class="big-box-youtube box">
-      
-       <img src="assets\images\web-dev-simplified.png" alt="" />
-      
+       <img src="assets/images/web-dev-simplified.png" alt="Web-Dev-Simplified">
       <div class="div-text">
         <h3>Web Dev Simplified</h3>
         <p>1.69M subscribers</p>

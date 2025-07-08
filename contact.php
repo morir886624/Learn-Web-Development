@@ -20,9 +20,8 @@ require_once('header.php');
 ?>
 <!-- main -->
 <main>
-  
   <section id="contact">
-  <form method="post" action="" class="form">
+  <form method="post" class="form">
     <h2>Contact me!</h2>
     <div class="name-lastname">
       <div class="nom">
@@ -55,7 +54,7 @@ require_once('header.php');
     <!-- Champ message -->
     <div class="message">
       <label for="message">Message :</label>
-      <textarea class="item" id="message" name="message" cols="30" rows="10" placeholder="Your message..." autocomplete="off"></textarea>
+      <textarea class="item" id="message" name="message"  placeholder="Your message..." autocomplete="off"></textarea>
       <div class="error-txt">Message can't be blank</div>
     </div>
     <div class="buttons">
@@ -64,7 +63,6 @@ require_once('header.php');
     </div>
   </form>
   <div id="confirmation" class="message-box"></div>
-
 
     <div class="contact-box box">
       <address class="small-box">

@@ -25,7 +25,6 @@ if (modeSombre) {
 } else {
   nouvelleImageLogo = "assets/images/logo.svg";
 }
-
 if (logo) {
   logo.src = nouvelleImageLogo;
 }
@@ -55,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-
+// gestion du bouton menu tablette
 document.getElementById("menu-button").addEventListener("click", function() {
   const menu = document.getElementById("nav-menu");
   const icon = document.getElementById("menu-icon");

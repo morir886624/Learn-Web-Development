@@ -20,7 +20,7 @@ require_once('header-fa.php');
 <!-- main -->
  <main>
 <section id="contact">
-  <form method="post" action="" class="form">
+  <form method="post" class="form">
     <h2>تماس با من!</h2>
     <div class="name-lastname">
       <div class="nom">

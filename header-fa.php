@@ -15,11 +15,11 @@
 
       <div class="img-us-moon-tab">
         <a href="index.php"><img class="img-us" src="assets/images/us.png" title="Change site language" alt="flag of united states"></a>
-        <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon" id="" />
+        <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon">
       </div>  
     </nav>
     <div class="img-us-moon">
       <a href="index.php"><img class="img-us" src="assets/images/us.png" title="Change site language" alt="flag of united states"></a>
-      <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon" id="" />
+      <img class="img-moon" src="assets/images/moon.png" title="Switch between dark/light mode" alt="Theme Toggle Icon">
     </div>  
   </header>

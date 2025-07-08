@@ -25,7 +25,6 @@ require_once('header.php');
       <img  class="img-principale" src="assets/images/image_principale.webp" alt="an images that represent my past and present">
       <h1>Welcome to <br> Learn Web Development !</h1>
     </div>
-
     <!-- section information -->
     <section class="information">
       <h2>How to Become a Web Developer?</h2>
@@ -71,8 +70,6 @@ require_once('header.php');
       </div>
     </section>
   </main>
-
-
  <?php
 require_once('footer.php');
 ?>

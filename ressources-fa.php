@@ -34,7 +34,7 @@ require_once('header-fa.php');
         </p>
       </div>
       <div class="div-button">
-        <a href="https://www.udemy.com/" target="_blank">دیدن سایت !</a>
+        <a href="https://www.udemy.com/" target="_blank" tabindex="8">دیدن سایت !</a>
       </div>
     </div>
     <div class="big-box box">
@@ -47,7 +47,7 @@ require_once('header-fa.php');
         </p>
       </div>
       <div class="div-button">
-        <a href="https://www.w3schools.com/" target="_blank">دیدن سایت !</a>
+        <a href="https://www.w3schools.com/" target="_blank" tabindex="9">دیدن سایت !</a>
       </div>
     </div>
     <div class="big-box box">
@@ -61,7 +61,7 @@ require_once('header-fa.php');
         </p>
       </div>
       <div class="div-button">
-        <a href="https://developer.mozilla.org/en-US/" target="_blank">دیدن سایت !</a>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank" tabindex="10">دیدن سایت !</a>
       </div>
     </div>
     <div class="big-box box">
@@ -73,7 +73,7 @@ require_once('header-fa.php');
         </p>
       </div>
       <div class="div-button">
-        <a href="https://teamtreehouse.com/" target="_blank">دیدن سایت !</a>
+        <a href="https://teamtreehouse.com/" target="_blank" tabindex="11">دیدن سایت !</a>
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@ require_once('header-fa.php');
         <p>دنبال کننده:1.74M</p>
       </div>
       <div class="div-button-youtube">
-       <a href="https://www.youtube.com/@NetNinja" target="_blank">مشاهده کانال !</a>
+       <a href="https://www.youtube.com/@NetNinja" target="_blank" tabindex="12">مشاهده کانال !</a>
       </div>
     </div>
     <div class="big-box-youtube box">
@@ -97,7 +97,7 @@ require_once('header-fa.php');
         <p>دنبال کننده:2.34M</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@TraversyMedia" target="_blank">مشاهده کانال !</a>
+        <a href="https://www.youtube.com/@TraversyMedia" target="_blank" tabindex="13">مشاهده کانال !</a>
       </div>
     </div>
     <div class="big-box-youtube box">
@@ -107,7 +107,7 @@ require_once('header-fa.php');
         <p>10.6M دنبال کننده</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@freecodecamp" target="_blank">مشاهده کانال !</a>
+        <a href="https://www.youtube.com/@freecodecamp" target="_blank" tabindex="14">مشاهده کانال !</a>
       </div>
     </div>
     <div class="big-box-youtube box">
@@ -117,7 +117,7 @@ require_once('header-fa.php');
         <p>1.69M دنبال کننده</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@WebDevSimplified" target="_blank">مشاهده کانال !</a>
+        <a href="https://www.youtube.com/@WebDevSimplified" target="_blank" tabindex="15">مشاهده کانال !</a>
       </div>
     </div>
   </div>

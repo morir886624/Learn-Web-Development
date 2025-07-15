@@ -58,7 +58,7 @@ nav ul li a:hover{
   flex-shrink: 0;
 }
 .img-moon{
-  width: 50px;
+  width: 45px;
   margin-left:20px ;
   transition: 0.3s;
 }
@@ -74,11 +74,15 @@ nav ul li a:hover{
   cursor: pointer;
   transform: scale(1.1);
 }
+a:focus, img:focus{
+  outline: 2px solid black;
+}
   @media  (max-width: 1024px){
   header {
   height: 100px;
   justify-content: space-between;
   padding: 0 10px;
+  direction: rtl;
   }
   .header-menu-mobile {
   display: flex;
@@ -114,6 +118,11 @@ nav ul li a:hover{
   justify-content: center;
   align-items: center;
   }
+  nav ul li a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
   .icons-menu{
   display: block;
   }
@@ -128,7 +137,8 @@ nav ul li a:hover{
   align-items: center;
   }
   .img-moon{
-      width: 55px;
+      width: 45px;
+      margin:0 20px 0 0;
   }
   span.material-symbols-outlined{
   display: flex;
@@ -140,7 +150,7 @@ nav ul li a:hover{
 
   /**************MOBILE**************/
 
-  @media  (max-width: 640px) {
+  @media  (max-width: 768px) {
   .img-us-moon-tab{
   display: none;
   }
@@ -150,6 +160,7 @@ nav ul li a:hover{
   }
   header {
   height: 70px;
+  direction: ltr;
   }
   .img-logo img {
   max-width: 70px;
@@ -188,11 +199,11 @@ nav ul li a:hover{
   gap: 10px;
   }
   .img-us{
-  width: 45px;
+  width: 40px;
   }
   .img-moon {
   margin: 0;
-  width: 50px;
+  width: 40px;
   }
   span.material-symbols-outlined{
   font-size: 30px;

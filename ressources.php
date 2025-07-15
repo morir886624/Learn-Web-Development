@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +34,7 @@ require_once('header.php');
         cours</p>
       </div>
       <div class="div-button">
-        <a href="https://www.udemy.com/" target="_blank">Voir le site !</a>
+        <a href="https://www.udemy.com/" target="_blank" tabindex="8">Voir le site !</a>
       </div>
     </div>
 
@@ -49,7 +48,7 @@ require_once('header.php');
         3BN+ Pages Displayed Yearly</p>
       </div>
       <div class="div-button">
-        <a href="https://www.w3schools.com/" target="_blank">Voir le site !</a>
+        <a href="https://www.w3schools.com/" target="_blank" tabindex="9">Voir le site !</a>
       </div>
     </div>
 
@@ -60,7 +59,7 @@ require_once('header.php');
         <p>45K Pages of content <br> 7 Languages <br> 46M Monthly pageviews</p>
       </div>
       <div class="div-button">
-        <a href="https://developer.mozilla.org/en-US/" target="_blank">Voir le site !</a>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank" tabindex="10">Voir le site !</a>
       </div>
     </div>
     <div class="big-box box ">
@@ -70,7 +69,7 @@ require_once('header.php');
         <p>1.2 million students across the globe</p>
       </div>
       <div class="div-button">
-        <a href="https://teamtreehouse.com/" target="_blank">Voir le site !</a>
+        <a href="https://teamtreehouse.com/" target="_blank" tabindex="11">Voir le site !</a>
       </div>
     </div>
   </div>
@@ -84,7 +83,7 @@ require_once('header.php');
         <p>1.74M subscribers</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@NetNinja" target="_blank">Visiter la chaîne !</a>
+        <a href="https://www.youtube.com/@NetNinja" target="_blank" tabindex="12">Visiter la chaîne !</a>
       </div>
     </div>
     <div class="big-box-youtube box">
@@ -94,7 +93,7 @@ require_once('header.php');
         <p>2.34M subscribers</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@TraversyMedia" target="_blank">Visiter la chaîne !</a>
+        <a href="https://www.youtube.com/@TraversyMedia" target="_blank" tabindex="13">Visiter la chaîne !</a>
       </div>
     </div>
     <div class="big-box-youtube box">
@@ -104,7 +103,7 @@ require_once('header.php');
         <p>10.6M subscribers</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@freecodecamp" target="_blank">Visiter la chaîne !</a>
+        <a href="https://www.youtube.com/@freecodecamp" target="_blank" tabindex="14">Visiter la chaîne !</a>
       </div>
     </div>
     <div class="big-box-youtube box">
@@ -114,7 +113,7 @@ require_once('header.php');
         <p>1.69M subscribers</p>
       </div>
       <div class="div-button-youtube">
-        <a href="https://www.youtube.com/@WebDevSimplified" target="_blank">Visiter la chaîne !</a>
+        <a href="https://www.youtube.com/@WebDevSimplified" target="_blank" tabindex="15">Visiter la chaîne !</a>
       </div>
     </div>
   </div>

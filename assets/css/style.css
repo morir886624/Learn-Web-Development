@@ -34,7 +34,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-100%, -100%);
   font-weight: 600;
   font-style: italic;
   }
@@ -119,11 +119,7 @@ body{
   transform: translateY(0);
 }
 
-
-
-
-
-  /* --------------------- TABLETTE --------------------- */
+  /* -------------- TABLETTE --------------------- */
 
 @media (max-width: 1024px){
 
@@ -133,7 +129,7 @@ body{
   }
 
 .div-principal h1 {
-  font-size: 27px;
+  font-size: 22px;
   }
 
 .img-principale {
@@ -149,11 +145,7 @@ body{
   max-width: 80%;
   padding: 20px;
   }
-
   }
-
-
-
 
                        /* mobil */
 

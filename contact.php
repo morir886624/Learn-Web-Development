@@ -32,7 +32,7 @@ require_once('header.php');
 
       <div class="lastname">
         <label for="lastname">Last name :</label>
-        <input class="item" type="text" id="lastname" name="name" placeholder="Your last name" autocomplete="off">
+        <input class="item" type="text" id="lastname" name="lastname" placeholder="Your last name" autocomplete="off">
         <div class="error-txt">Last name can't be blank</div>
       </div>
     </div>    

@@ -2,18 +2,19 @@ const form = document.querySelector(".form");
 const inputs = document.querySelectorAll(".item");
 const messageBox = document.getElementById("confirmation");
 
-let timeoutMessage = null; // timer de disparition
+// زمان بندی ناپدید شدن پیام
+let timeoutMessage = null; 
 function showMessage(text, type = "success") {
-  clearTimeout(timeoutMessage); // évite les empilements de timer
+  clearTimeout(timeoutMessage); 
   messageBox.textContent = text;
   messageBox.className = "message-box " + type + " show";
-  // Disparaît après 5 secondes
+  //  après 5 secondes
   timeoutMessage = setTimeout(() => {
     messageBox.classList.remove("show");
   }, 5000);
 }
 
-// Supprime les erreurs dès que l'utilisateur tape
+// حذف ایرور به محض اینکه تایپ میشود
 inputs.forEach(input => {
   input.addEventListener("input", () => {
     input.classList.remove("error");
@@ -36,10 +37,7 @@ function checkInputs() {
       input.classList.add("error");
       if (errorText) errorText.style.display = "block";
       formIsValid = false;
-    } else if (
-      input.type === "email" &&
-      !/^\S+@\S+\.\S+$/.test(value)
-    ) {
+    } else if (input.type === "email" && !/^\S+@\S+\.\S+$/.test(value)) {
       input.classList.add("error");
       if (errorText) {
         errorText.textContent = "Invalid email address";

@@ -27,7 +27,7 @@ require_once('header.php');
       My background :          
       </h2>
       <p>
-      My name is Abdul Moeid Morir. In Afghanistan, I studied medicine for two years, but due to the security situation, I had to leave my country. <br>  I've been in France for two years now, and here, I've decided to refocus my career on digital technology, a field that has always interested me. <br> Thanks to my current training, I discovered web development and began learning the basics of coding. <br> I'm still in the learning phase, but I'm very motivated to progress and build a new career path here in this field.
+      My name is XXX. In Afghanistan, I studied medicine for two years, but due to the security situation, I had to leave my country. <br>  I've been in France for two years now, and here, I've decided to refocus my career on digital technology, a field that has always interested me. <br> Thanks to my current training, I discovered web development and began learning the basics of coding. <br> I'm still in the learning phase, but I'm very motivated to progress and build a new career path here in this field.
       </p>
     </div>
   </div>

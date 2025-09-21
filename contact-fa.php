@@ -66,12 +66,12 @@ require_once('header-fa.php');
   <div class="contact-box box">
     <address class="small-box">
       <span class="material-symbols-outlined icons">mail</span>        
-      <a href="mailto:moeid6624@gmail.com" target="_blank">moeid6624@gmail.com</a>
+      <a href="mailto:exemple@gmail.com" target="_blank">exemple@gmail.com</a>
     </address>
 
     <address class="small-box box">
       <span class="material-symbols-outlined icons">Phone</span>
-      <a href="tel:+33745935173">33745935173+</a>
+      <a href="tel:+3370000000">+3370000000</a>
     </address>
     
     <address class="small-box box">

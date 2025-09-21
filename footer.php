@@ -3,12 +3,12 @@
     <div class="footer-box">
       <address class="footer-box-row-mail" tabindex="20">
         <span class="material-symbols-outlined" >mail</span>
-        <a href="mailto:moeid6624@gmail.com" title="send an email" target="_blank">moeid6624@gmail.com</a>
+        <a href="mailto:example@gmail.com" title="send an email" target="_blank">example@gmail.com</a>
       </address>
 
       <address class="footer-box-row-phone" tabindex="21">
         <span class="material-symbols-outlined">phone</span>
-        <a href="tel:+33745935173" title="call me">+33745935173</a>
+        <a href="tel:+33700000000" title="call me">+33700000000</a>
       </address>
       
       <div class="footer-box-row-phone" tabindex="22">
